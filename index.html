@@ -5,12 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Room homepage</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
+    <a href="#" id="menu" class="menu"><img src="./images/icon-hamburger.svg" alt=""></a>
     <p class="title">room</p>
     <ul>
       <a href="#">
@@ -27,8 +27,27 @@
       </a>
     </ul>
   </header>
+  <div class="mo-nav" id="mo-nav">
+    <ul>
+      <a id="close" href="#">
+        <img src="./images/icon-close.svg" alt="">
+      </a>
+      <a href="#">
+        <li>home</li>
+      </a>
+      <a href="#">
+        <li>shop</li>
+      </a>
+      <a href="#">
+        <li>about</li>
+      </a>
+      <a href="#">
+        <li>contact</li>
+      </a>
+    </ul>
+  </div>
   <div class="cont-top">
-    <img class="top-1" src="./images/desktop-image-hero-1.jpg" alt="">
+    <img id="img-change" class="top-1" src="./images/desktop-image-hero-1.jpg" alt="">
     <div class="top-2">
       <div class="inner">
         <h1>Discover innovative ways to decorate</h1>
@@ -41,12 +60,12 @@
         </div>
       </div>
       <div class="nav">
-        <div id="left">
+        <button id="left">
           <img src="images/icon-angle-left.svg" alt="">
-        </div>
-        <div id="right">
+        </button>
+        <button id="right">
           <img src="images/icon-angle-right.svg" alt="">
-        </div>
+        </button>
       </div>
     </div>
   </div>
@@ -62,3 +81,4 @@
   </div>
 </body>
 </html>
+<script src="./main.js"></script>
