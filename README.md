@@ -5,6 +5,7 @@
 
 ## Mobile Design
 ![alt text](./design/mobile-navigation.jpg)
+![alt text](./design/mobile-design.jpg)
 
 # Used Techniques!
 	- HTML
